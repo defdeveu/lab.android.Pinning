@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pinning</string>
+    <string name="download">Download</string>
+    <string name="downloaded_text">Downloaded text</string>
+    <string name="letsencrypt">Letsencrypt</string>
+    <string name="custom_ca">Custom CA</string>
+    <string name="plain_text">Plain text</string>
+
+    <string name="url_plain">http://zs.labs.defdev.eu/success.html</string>
+    <string name="url_defdev">https://zs2.labs.defdev.eu:444/success.html</string>
+    <string name="url_lestencrypt">https://zs.labs.defdev.eu/success.html</string>
+</resources>
