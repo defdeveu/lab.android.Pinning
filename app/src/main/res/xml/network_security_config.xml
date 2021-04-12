@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
- 
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="false">zs.labs.defdev.eu</domain>
+        <trust-anchors>
+            <certificates src="@raw/dstroot"/>
+        </trust-anchors>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="false">zs2.labs.defdev.eu</domain>
+        <trust-anchors>
+            <certificates src="@raw/customca"/>
+        </trust-anchors>
+    </domain-config>
 </network-security-config>
